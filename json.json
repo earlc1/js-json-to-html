@@ -1,0 +1,53 @@
+
+{"__comment__" :  "Examples of JSON syntax and formatting"}
+
+
+{
+	"__comment__": "JSON
+	 JavaScript Object Notation
+	 Sends data between servers and web applications
+	 Stores and transports data"
+}
+
+
+{
+"__comment__": "DATA TYPES"
+}
+{"number": 14} // floating-point, pos/neg, decimal fractions, exponents
+{"string": "Hi there"} // Unicode w/backslash escaping
+{"boolean": "true"}
+{"array": [{"Sandy": 12}, "textstring", "eclipse"}]} // Contains different data types
+{"object": {"name1": 1, "name2": 1}} // Keys: strings/unique
+{"null": null}
+
+
+{"EXAMPLE": "All Data Types"}
+{
+"array": [1, 2],
+"boolean": "true",
+"color": "#86a765c",
+"null": null,
+"number": 123,
+"object": {"a": "b","c": "d"},
+"string": "Hi there"
+}
+
+
+{ "ARRAYS IN JSON":  "Phone Mfr" }
+
+{
+  var data = {
+    "dataAry": {
+      [ { headquarters: 'Espoo, Finland',
+        modifiedOn: '2017-01-31 10:00:00',
+        manufacturerName: 'Nokia',
+        nameOfCEO: 'Rajeev Suri',
+        id: 1 },
+      { headquarters: 'Haidian District, Beijing, China',
+        modifiedOn: '2017-01-31 10:00:00',
+        manufacturerName: 'Xiaomi',
+        nameOfCEO: 'Lei Jun',
+        id: 2 } ]
+    }
+  }
+}
