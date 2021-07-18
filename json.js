@@ -21,6 +21,7 @@ var data = {
 for(var x=0;x<data.dataAry.length;x++){
     var phoneMfr = data.dataAry[x]
     console.log(phoneMfr)
+
     output1.innerHTML += phoneMfr.id + "<br>"
     output1.innerHTML += phoneMfr.headquarters + "<br>"
     output1.innerHTML += phoneMfr.manufacturerName + "<br>"
